@@ -5,3 +5,5 @@ This repo contains a build script used to build Emacs 28.1 with Debian Bullseye.
 * Dependencies
 
 This script uses ~fd~, a ~find~ replacement written in Rust.  Install via cargo, brew, or apt, e.g. ~sudo apt install fd-find~.
+
+To install all the dependencies required to build emacs, run ~sudo apt build-dep emacs~.  This will install all the build dependencies for the current emacs package in apt, which should cover /most/ of the dependencies required by the new version of emacs.  If after that a dependency is still missing for the new version of emacs, install it as well.
