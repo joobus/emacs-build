@@ -4,4 +4,4 @@ This repo contains a build script used to build Emacs 28.1 with Debian Bullseye.
 
 * Dependencies
 
-This script uses `fd`, a `find` replacement written in Rust.  Install via cargo, brew, or apt, e.g. `sudo apt install fd-find`.
+This script uses ~fd~, a ~find~ replacement written in Rust.  Install via cargo, brew, or apt, e.g. ~sudo apt install fd-find~.
